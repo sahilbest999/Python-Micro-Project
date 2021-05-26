@@ -1,0 +1,18 @@
+
+#### CREATE A USER / SIGNUP
+POST http://localhost:5000/signup HTTP/1.1
+content-type: application/json
+
+{
+    "username": "sahil_shahane",
+    "password": "12345678"
+}
+
+### LOGIN A USER / SIGNIN
+POST http://localhost:5000/signin HTTP/1.1
+content-type: application/json
+
+{
+    "username": "sahil_shahssane",
+    "password": "12345678"
+}
